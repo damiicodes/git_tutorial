@@ -1,0 +1,562 @@
+Last login: Fri Nov 19 18:42:45 on ttys000
+/Users/damifajinmi/.zshrc:1: command not found: i#
+~ [ desktop                                                                                                                        ] 7:00 pm
+~/desktop [ git_tutorial                                                                                                           ] 7:01 pm
+desktop/git_tutorial [ touch index.html                                                                                     master ] 7:01 pm
+desktop/git_tutorial [ touch index.js                                                                                     master * ] 7:02 pm
+desktop/git_tutorial [ touch main.css                                                                                     master * ] 7:02 pm
+desktop/git_tutorial [ ls                                                                                                 master * ] 7:02 pm
+index.html index.js   main.css
+desktop/git_tutorial [ ls -a                                                                                              master * ] 7:02 pm
+.          ..         .git       index.html index.js   main.css
+desktop/git_tutorial [                                                                                                    master * ] 7:02 pm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+desktop/git_tutorial [ git status                                                                                         master * ] 7:03 pm
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	index.html
+	index.js
+	main.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+desktop/git_tutorial [  git add index.html                                                                                master * ] 7:03 pm
+desktop/git_tutorial [                                                                                                    master * ] 7:05 pm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+desktop/git_tutorial [ git status                                                                                         master * ] 7:05 pm
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	index.js
+	main.css
+
+desktop/git_tutorial [ git rm --cached index.html                                                                         master * ] 7:05 pm
+rm 'index.html'
+desktop/git_tutorial [ y                                                                                                  master * ] 7:06 pm
+zsh: command not found: y
+desktop/git_tutorial [ git status                                                                                         master * ] 7:06 pm
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	index.html
+	index.js
+	main.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+desktop/git_tutorial [ git add index.html                                                                                 master * ] 7:06 pm
+desktop/git_tutorial [ git add index.js                                                                                   master * ] 7:06 pm
+desktop/git_tutorial [ git status                                                                                         master * ] 7:06 pm
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   index.html
+	new file:   index.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	main.css
+
+desktop/git_tutorial [ git add .                                                                                          master * ] 7:06 pm
+desktop/git_tutorial [ git status                                                                                         master * ] 7:07 pm
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   index.html
+	new file:   index.js
+	new file:   main.css
+
+desktop/git_tutorial [ gti rm -r --cached .                                                                               master * ] 7:07 pm
+zsh: command not found: gti
+desktop/git_tutorial [ git rm -r --cached .                                                                               master * ] 7:08 pm
+rm 'index.html'
+rm 'index.js'
+rm 'main.css'
+desktop/git_tutorial [ git status                                                                                         master * ] 7:08 pm
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	index.html
+	index.js
+	main.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+desktop/git_tutorial [ git add .                                                                                          master * ] 7:09 pm
+desktop/git_tutorial [ git status                                                                                         master * ] 7:09 pm
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   index.html
+	new file:   index.js
+	new file:   main.css
+
+desktop/git_tutorial [ git rm -r --cached .                                                                               master * ] 7:09 pm
+rm 'index.html'
+rm 'index.js'
+rm 'main.css'
+desktop/git_tutorial [ mkdir test                                                                                         master * ] 7:09 pm
+desktop/git_tutorial [ cd test                                                                                            master * ] 7:09 pm
+git_tutorial/test [ touch test.js                                                                                         master * ] 7:09 pm
+git_tutorial/test [ git status                                                                                            master * ] 7:09 pm
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../index.html
+	../index.js
+	../main.css
+	./
+
+nothing added to commit but untracked files present (use "git add" to track)
+git_tutorial/test [ git add .                                                                                             master * ] 7:10 pm
+git_tutorial/test [ git status                                                                                            master * ] 7:10 pm
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   test.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../index.html
+	../index.js
+	../main.css
+
+git_tutorial/test [ git add -A                                                                                            master * ] 7:10 pm
+git_tutorial/test [ git status                                                                                            master * ] 7:11 pm
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   ../index.html
+	new file:   ../index.js
+	new file:   ../main.css
+	new file:   test.js
+
+git_tutorial/test [ cd ..                                                                                                 master * ] 7:11 pm
+desktop/git_tutorial [ git commit -m "bootstrap"                                                                          master * ] 7:22 pm
+[master (root-commit) f5cf4b6] bootstrap
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 index.js
+ create mode 100644 main.css
+ create mode 100644 test/test.js
+desktop/git_tutorial [ git log                                                                                              master ] 7:23 pm
+desktop/git_tutorial [ git show f5cf4b6fbd1991a6da9c6584fbf8980ce320ea92                                                    master ] 7:25 pm
+desktop/git_tutorial [ vi index.js                                                                                          master ] 7:26 pm
+desktop/git_tutorial [ cat index.js                                                                                       master * ] 7:32 pm
+console.log("hello");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+desktop/git_tutorial [ git status                                                                                         master * ] 7:33 pm
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+desktop/git_tutorial [ git diff                                                                                           master * ] 7:33 pm
+desktop/git_tutorial [ git add .                                                                                          master * ] 7:34 pm
+desktop/git_tutorial [ git status                                                                                         master * ] 7:34 pm
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   index.js
+
+desktop/git_tutorial [ git commit -m "added console.log"                                                                  master * ] 7:34 pm
+[master e2aae7f] added console.log
+ 1 file changed, 45 insertions(+)
+desktop/git_tutorial [ git log                                                                                              master ] 7:36 pm
+desktop/git_tutorial [ git show e2aae7fe752faed01593e72c5e43f5dca412ba8f                                                    master ] 7:37 pm
+desktop/git_tutorial [ vi index.js                                                                                          master ] 7:38 pm
+desktop/git_tutorial [ git diff                                                                                           master * ] 7:39 pm
+desktop/git_tutorial [ git status                                                                                         master * ] 7:39 pm
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+desktop/git_tutorial [ git restore index.js                                                                               master * ] 7:39 pm
+desktop/git_tutorial [ git status                                                                                           master ] 7:39 pm
+On branch master
+nothing to commit, working tree clean
+desktop/git_tutorial [ git diff                                                                                             master ] 7:40 pm
+desktop/git_tutorial [ ls                                                                                                   master ] 7:40 pm
+index.html index.js   main.css   test
+desktop/git_tutorial [ vi main.css                                                                                          master ] 7:42 pm
+desktop/git_tutorial [ git status                                                                                         master * ] 7:42 pm
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   main.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+desktop/git_tutorial [ git add main .                                                                                     master * ] 7:42 pm
+fatal: pathspec 'main' did not match any files
+desktop/git_tutorial [ git add .                                                                                          master * ] 7:42 pm
+desktop/git_tutorial [ git commit -m "add css"                                                                            master * ] 7:42 pm
+[master a7e402c] add css
+ 1 file changed, 1 insertion(+)
+desktop/git_tutorial [ git log                                                                                              master ] 7:43 pm
+desktop/git_tutorial [ git commit --amend -m "added more css"                                                               master ] 7:43 pm
+[master 5d2e7d4] added more css
+ Date: Fri Nov 19 19:43:02 2021 +0000
+ 1 file changed, 1 insertion(+)
+desktop/git_tutorial [ git log                                                                                              master ] 7:44 pm
+desktop/git_tutorial [ git remote add origin https://github.com/damiicodes/git_tutorial.git                                 master ] 7:45 pm
+desktop/git_tutorial [ git branch -M main                                                                                   master ] 7:56 pm
+desktop/git_tutorial [ git branch                                                                                             main ] 7:56 pm
+desktop/git_tutorial [ git push -u origin main                                                                                main ] 7:57 pm
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (10/10), 769 bytes | 256.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/damiicodes/git_tutorial.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+desktop/git_tutorial [ vi main.go                                                                                             main ] 7:57 pm
+desktop/git_tutorial [ git status                                                                                           main * ] 8:06 pm
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	main.go
+
+nothing added to commit but untracked files present (use "git add" to track)
+desktop/git_tutorial [ git add main.go                                                                                      main * ] 8:06 pm
+desktop/git_tutorial [ git status                                                                                           main * ] 8:07 pm
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   main.go
+
+desktop/git_tutorial [ git commit -m "added main go file"                                                                   main * ] 8:12 pm
+[main 78637f4] added main go file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 main.go
+desktop/git_tutorial [ git log                                                                                                main ] 8:12 pm
+desktop/git_tutorial [ git show 78637f403ef0e3d21eab58b1f8d5732fe5234f52                                                      main ] 8:13 pm
+desktop/git_tutorial [ git push                                                                                               main ] 8:13 pm
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 289 bytes | 289.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/damiicodes/git_tutorial.git
+   5d2e7d4..78637f4  main -> main
+desktop/git_tutorial [ git log                                                                                                main ] 8:14 pm
+desktop/git_tutorial [ git pull                                                                                               main ] 8:18 pm
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 724 bytes | 241.00 KiB/s, done.
+From https://github.com/damiicodes/git_tutorial
+   78637f4..c711b68  main       -> origin/main
+Updating 78637f4..c711b68
+Fast-forward
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+desktop/git_tutorial [ ls                                                                                                     main ] 8:19 pm
+README.md  index.html index.js   main.css   main.go    test
+desktop/git_tutorial [ git pull                                                                                               main ] 8:19 pm
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 662 bytes | 132.00 KiB/s, done.
+From https://github.com/damiicodes/git_tutorial
+   c711b68..5c874a9  main       -> origin/main
+Updating c711b68..5c874a9
+Fast-forward
+ main.go | 2 ++
+ 1 file changed, 2 insertions(+)
+desktop/git_tutorial [ cat main.go                                                                                            main ] 8:26 pm
+package main
+
+func main () {}
+desktop/git_tutorial [ git log                                                                                                main ] 8:26 pm
+desktop/git_tutorial [  git branch -r                                                                                         main ] 8:27 pm
+desktop/git_tutorial [ git branch -a                                                                                          main ] 8:30 pm
+desktop/git_tutorial [ git branch feature-a                                                                                   main ] 8:31 pm
+desktop/git_tutorial [ git branch -a                                                                                          main ] 8:32 pm
+desktop/git_tutorial [ git branch                                                                                             main ] 8:32 pm
+desktop/git_tutorial [ git checkout feature-a                                                                                 main ] 8:33 pm
+Switched to branch 'feature-a'
+desktop/git_tutorial [ git brnach                                                                                        feature-a ] 8:33 pm
+git: 'brnach' is not a git command. See 'git --help'.
+
+The most similar command is
+	branch
+desktop/git_tutorial [ git branch                                                                                        feature-a ] 8:33 pm
+desktop/git_tutorial [ git checkout -                                                                                    feature-a ] 8:33 pm
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+desktop/git_tutorial [ git checkout -                                                                                         main ] 8:34 pm
+Switched to branch 'feature-a'
+desktop/git_tutorial [ vi utils.js                                                                                       feature-a ] 8:34 pm
+desktop/git_tutorial [ git status                                                                                      feature-a * ] 8:36 pm
+On branch feature-a
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	utils.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+desktop/git_tutorial [ git add .                                                                                       feature-a * ] 8:36 pm
+desktop/git_tutorial [ git commit -m "utils.js to do"                                                                  feature-a * ] 8:36 pm
+[feature-a e1804a2] utils.js to do
+ 1 file changed, 1 insertion(+)
+ create mode 100644 utils.js
+desktop/git_tutorial [ git log                                                                                           feature-a ] 8:37 pm
+desktop/git_tutorial [ git checkout -                                                                                    feature-a ] 8:37 pm
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+desktop/git_tutorial [ git log                                                                                                main ] 8:37 pm
+desktop/git_tutorial [ git checkout -                                                                                         main ] 8:37 pm
+Switched to branch 'feature-a'
+desktop/git_tutorial [ git push                                                                                          feature-a ] 8:37 pm
+fatal: The current branch feature-a has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature-a
+
+desktop/git_tutorial [ git push -u origin feature-a                                                                      feature-a ] 8:38 pm
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 292 bytes | 292.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'feature-a' on GitHub by visiting:
+remote:      https://github.com/damiicodes/git_tutorial/pull/new/feature-a
+remote: 
+To https://github.com/damiicodes/git_tutorial.git
+ * [new branch]      feature-a -> feature-a
+Branch 'feature-a' set up to track remote branch 'feature-a' from 'origin'.
+desktop/git_tutorial [ git checkout main                                                                                 feature-a ] 8:39 pm
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+desktop/git_tutorial [ git checkout -b to-delete                                                                              main ] 8:45 pm
+Switched to a new branch 'to-delete'
+desktop/git_tutorial [ git branch -a                                                                                     to-delete ] 8:46 pm
+desktop/git_tutorial [ git checkout -a                                                                                   to-delete ] 8:46 pm
+error: unknown switch `a'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --guess               second guess 'git checkout <no-such-branch>' (default)
+    --overlay             use overlay mode (default)
+    -q, --quiet           suppress progress reporting
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+    -m, --merge           perform a 3-way merge with the new branch
+    --conflict <style>    conflict style (merge or diff3)
+    -d, --detach          detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    -f, --force           force checkout (throw away local modifications)
+    --orphan <new-branch>
+                          new unparented branch
+    --overwrite-ignore    update ignored files (default)
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+desktop/git_tutorial [ git checkout -                                                                                    to-delete ] 8:46 pm
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+desktop/git_tutorial [ git brnach -d to-delete                                                                                main ] 8:47 pm
+git: 'brnach' is not a git command. See 'git --help'.
+
+The most similar command is
+	branch
+desktop/git_tutorial [ git branch -d to-delete                                                                                main ] 8:48 pm
+Deleted branch to-delete (was 5c874a9).
+desktop/git_tutorial [ git log                                                                                                main ] 8:48 pm
+desktop/git_tutorial [ git log --oneline                                                                                      main ] 8:58 pm
+desktop/git_tutorial [ git pull                                                                                               main ] 8:59 pm
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 626 bytes | 208.00 KiB/s, done.
+From https://github.com/damiicodes/git_tutorial
+   5c874a9..439fc73  main       -> origin/main
+Updating 5c874a9..439fc73
+Fast-forward
+ utils.js | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 utils.js
+desktop/git_tutorial [ git log --oneline                                                                                      main ] 8:59 pm
+desktop/git_tutorial [ git branch -d feature-a                                                                                main ] 8:59 pm
+Deleted branch feature-a (was e1804a2).
+desktop/git_tutorial [ git branch -a                                                                                          main ] 9:00 pm
+desktop/git_tutorial [                                         
